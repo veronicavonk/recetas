@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF6C00"
+    tools:context="com.domain.veronica.proyectoveronicaapi.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="223dp"
+        android:layout_height="120dp"
+        android:paddingTop="50dp"
+        android:layout_gravity="top|center"
+        android:gravity="center_horizontal"
+        android:text="EL MEJOR RECETARIO DEL MUNDO EN TUS MANOS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="279dp"
+        android:layout_height="266dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/plato" />
+
+    <Button
+        android:id="@+id/button"
+        style="?attr/imageButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="30dp"
+        android:background="@android:color/holo_green_dark"
+        android:pointerIcon="none"
+        android:text="CONTINUAR"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</android.support.design.widget.CoordinatorLayout>
